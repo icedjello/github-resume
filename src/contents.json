@@ -1,0 +1,82 @@
+{
+  "personalDetails": {
+    "firstName": "Bamdad",
+    "preferredName": "Bam",
+    "lastName": "Fard",
+    "email": "hire@bamfard.info",
+    "homeTown": "Watford",
+    "country": "United Kingdom",
+    "aboutMe": "Outside of work, I am passionate about my hobbies and often engage in multiple projects simultaneously. In spring and summer, I relish fishing on lakesides. As colder seasons set in, I indulge in playing board games; recently, I've been running a Dungeons & Dragons campaign with colleagues at Smart. Additionally, you can find me rock-climbing whenever I get the chance, and occasionally, I've been known to strum the guitar."
+  },
+  "skillsAndTech": {
+    "title": "Skills & Technologies",
+    "values": [
+      "JavaScript",
+      "TypeScript",
+      "Algorithms",
+      "Storybook",
+      "React",
+      "Unit testing",
+      "End-to-end testing",
+      "Data Structures",
+      "Server Side Rendering",
+      "Node",
+      "Browser APIs",
+      "Git & Github",
+      "SQL (MySQL, Postgres)",
+      "Vite",
+      "Tailwind"
+    ]
+  },
+  "jobHistory": {
+    "title": "Employment History",
+    "jobs": [
+      {
+        "job": "React Developer",
+        "startDate": "2022-08-31T23:00:00.000Z",
+        "endDate": "2024-02-01T00:00:00.000Z",
+        "duties": [
+          "Collaborated with product-owners, designers and testers to plan and build new features for Smart's website and mobile app.",
+          "Built proof-of-concept features for user testing and implemented feedback-driven changes.",
+          "Assisted in transitioning approved features from prototypes to production code.",
+          "Resolved production bugs and refactored inefficient code in Smart's legacy systems.",
+          "Enhanced testing coverage and feature set for clients across various domains.",
+          "Acquired knowledge of pension law in diverse jurisdictions and customised features for users in UK, EU, and Middle East."
+        ]
+      },
+      {
+        "job": "Web Developer",
+        "startDate": "2019-03-31T23:00:00.000Z",
+        "endDate": "2022-08-31T23:00:00.000Z",
+        "duties": [
+          "Developed customised solutions using JavaScript, TypeScript, React, Vue, Angular, and other technologies as required.",
+          "Created proof-of-concept examples for Sales Team to onboard potential customers and assisted new customer onboarding.",
+          "Identified and documented bugs, contributed to the company knowledge base, and developed showcase projects for the company blog."
+        ]
+      },
+      {
+        "job": "Junior Developer",
+        "startDate": "2018-03-31T23:00:00.000Z",
+        "endDate": "2019-03-31T23:00:00.000Z",
+        "duties": [
+          "Assisted in developing and maintaining a custom CRM system using PHP, HTML, CSS, JavaScript, and MySQL.",
+          "Collaborated iteratively with end-users to incorporate features tailored to their needs."
+        ]
+      }
+    ]
+  },
+  "education": [
+    {
+      "degreeType": "BSc",
+      "subject": "Computer Science",
+      "location": "University of Hertfordshire",
+      "startDate": "2011-08-31T23:00:00.000Z",
+      "endDate": "2015-06-30T23:00:00.000Z",
+      "modules": [
+        "Quantum Computing",
+        "Artificial Intelligence",
+        "Neural Networks"
+      ]
+    }
+  ]
+}
