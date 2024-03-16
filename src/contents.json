@@ -4,9 +4,10 @@
     "preferredName": "Bam",
     "lastName": "Fard",
     "email": "hire@bamfard.info",
-    "homeTown": "Watford",
+    "homeTown": "London",
     "country": "United Kingdom",
-    "aboutMe": "Outside of work, I am passionate about my hobbies and often engage in multiple projects simultaneously. In spring and summer, I relish fishing on lakesides. As colder seasons set in, I indulge in playing board games; recently, I've been running a Dungeons & Dragons campaign with colleagues at Smart. Additionally, you can find me rock-climbing whenever I get the chance, and occasionally, I've been known to strum the guitar."
+    "aboutMe": "Technology enthusiast with a strong foundation in React and TypeScript, passionate about collaborating within diverse teams to achieve shared goals. Currently expanding my skill set with Python and Tailwind, I thrive on the challenge of continuous learning. With a down-to-earth and iterative approach to problem-solving, I'm committed to delivering practical solutions that make a difference.",
+    "other": "Outside of work, I am passionate about my hobbies and often engage in multiple projects simultaneously. In spring and summer, I relish fishing on lakesides. As colder seasons set in, I indulge in playing board games; recently, I've been running a Dungeons & Dragons campaign with colleagues at Smart. Additionally, you can find me rock-climbing whenever I get the chance, and occasionally, I've been known to strum the guitar."
   },
   "skillsAndTech": {
     "title": "Skills & Technologies",
@@ -28,13 +29,13 @@
       "Tailwind"
     ]
   },
-  "jobHistory": {
+  "employmentHistory": {
     "title": "Employment History",
     "jobs": [
       {
         "job": "React Developer",
-        "startDate": "2022-08-31T23:00:00.000Z",
-        "endDate": "2024-02-01T00:00:00.000Z",
+        "startDate": "2022-08",
+        "endDate": "2024-02",
         "duties": [
           "Collaborated with product-owners, designers and testers to plan and build new features for Smart's website and mobile app.",
           "Built proof-of-concept features for user testing and implemented feedback-driven changes.",
@@ -46,8 +47,8 @@
       },
       {
         "job": "Web Developer",
-        "startDate": "2019-03-31T23:00:00.000Z",
-        "endDate": "2022-08-31T23:00:00.000Z",
+        "startDate": "2019-03",
+        "endDate": "2022-08",
         "duties": [
           "Developed customised solutions using JavaScript, TypeScript, React, Vue, Angular, and other technologies as required.",
           "Created proof-of-concept examples for Sales Team to onboard potential customers and assisted new customer onboarding.",
@@ -56,8 +57,8 @@
       },
       {
         "job": "Junior Developer",
-        "startDate": "2018-03-31T23:00:00.000Z",
-        "endDate": "2019-03-31T23:00:00.000Z",
+        "startDate": "2018-03",
+        "endDate": "2019-03",
         "duties": [
           "Assisted in developing and maintaining a custom CRM system using PHP, HTML, CSS, JavaScript, and MySQL.",
           "Collaborated iteratively with end-users to incorporate features tailored to their needs."
@@ -65,18 +66,23 @@
       }
     ]
   },
-  "education": [
-    {
-      "degreeType": "BSc",
-      "subject": "Computer Science",
-      "location": "University of Hertfordshire",
-      "startDate": "2011-08-31T23:00:00.000Z",
-      "endDate": "2015-06-30T23:00:00.000Z",
-      "modules": [
-        "Quantum Computing",
-        "Artificial Intelligence",
-        "Neural Networks"
-      ]
-    }
-  ]
+  "education": {
+    "title": "Education",
+    "values": [
+      {
+        "degreeType": "BSc",
+        "subject": "Computer Science",
+        "institution": "University of Hertfordshire",
+        "grade": "2:1",
+        "startDate": "2011-08",
+        "endDate": "2015-06",
+        "modules": [
+          "Quantum Computing",
+          "Artificial Intelligence",
+          "Neural Networks"
+        ],
+        "comment": "My dissertation subject was about Artificial Intelligence & AI."
+      }
+    ]
+  }
 }

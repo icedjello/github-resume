@@ -68,7 +68,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border mx-8 my-4;
   }
   body {
     @apply bg-background text-foreground;
