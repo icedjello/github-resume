@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
-  base: "github-resume",
+  // base: "github-resume", // turned off because custom domain
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
