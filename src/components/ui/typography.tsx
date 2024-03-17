@@ -26,7 +26,7 @@ export function TypographyH3({ children }: PropsWithChildren) {
 
 export function TypographyH4({ children }: PropsWithChildren) {
   return (
-    <h4 className="scroll-m-20 text-xl font-semibold tracking-tigh [&:not(:first-child)]:mt-4">
+    <h4 className="scroll-m-20 text-xl font-semibold tracking-tight [&:not(:first-child)]:mt-4">
       {children}
     </h4>
   );
@@ -45,5 +45,5 @@ export function TypographyListItem({ text }: TypographyListItemProps) {
 }
 
 export function TypographyColumnList({ children }: PropsWithChildren) {
-  return <ul className="my-2  [&>li]:mt-2 grid grid-cols-3 ">{children}</ul>;
+  return <ul className="my-2  grid grid-cols-3 [&>li]:mt-2 ">{children}</ul>;
 }
