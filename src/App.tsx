@@ -17,6 +17,7 @@ import {
 import { JobEntry } from "./components/job-entry";
 import { EducationEntry } from "./components/education-entry";
 import { PersonalDetails } from "./components/personal-details";
+import { SkillsAndTech } from "./components/skills-and-tech";
 
 function App() {
   document.title = `${personalDetails.preferredName} ${personalDetails.lastName}`;
@@ -25,12 +26,7 @@ function App() {
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
       {/* <ModeToggle /> <- make this look nice */}
       <PersonalDetails {...personalDetails} />
-      <TypographyH3>{skillsAndTech.title}</TypographyH3>
-      <TypographyColumnList>
-        {skillsAndTech.values.map((text, i) => (
-          <TypographyListItem text={text} key={`skill-${i}`} />
-        ))}
-      </TypographyColumnList>
+      <SkillsAndTech {...skillsAndTech} />
       <TypographyH3>{employmentHistory.title}</TypographyH3>
       {employmentHistory.jobs.map((job, i) => (
         <JobEntry {...job} key={`job-${i}`} />
