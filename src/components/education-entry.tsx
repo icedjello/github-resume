@@ -1,7 +1,7 @@
 import { TypographyH4, TypographyP } from "./ui/typography";
 import { formatDate } from "./utils";
 
-type EducationEntryProps = {
+export type EducationEntryProps = {
   degreeType: string;
   subject: string;
   institution: string;

@@ -1,12 +1,4 @@
 // import { ModeToggle } from "./components/theme/mode-toggle";
-import {
-  TypographyColumnList,
-  TypographyListItem,
-  TypographyH1,
-  TypographyH2,
-  TypographyH3,
-  TypographyP,
-} from "./components/ui/typography";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import {
   personalDetails,
@@ -14,14 +6,14 @@ import {
   employmentHistory,
   education,
 } from "./contents.json";
-import { JobEntry } from "./components/job-entry";
-import { EducationEntry } from "./components/education-entry";
 import { PersonalDetails } from "./components/personal-details";
 import { SkillsAndTech } from "./components/skills-and-tech";
 import { Employment } from "./components/employment";
+import { Education } from "./components/education";
 
 function App() {
-  document.title = `${personalDetails.preferredName} ${personalDetails.lastName}`;
+  const { preferredName, lastName } = personalDetails;
+  document.title = `${preferredName} ${lastName}`;
 
   return (
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
@@ -29,10 +21,7 @@ function App() {
       <PersonalDetails {...personalDetails} />
       <SkillsAndTech {...skillsAndTech} />
       <Employment {...employmentHistory} />
-      <TypographyH3>{education.title}</TypographyH3>
-      {education.values.map((ed, i) => (
-        <EducationEntry {...ed} key={`edu-${i}`} />
-      ))}
+      <Education {...education} />
     </ThemeProvider>
   );
 }
