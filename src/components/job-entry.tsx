@@ -1,4 +1,4 @@
-import { TypographyH4 } from "./ui/typography";
+import { TypographyH4, TypographyP } from "./ui/typography";
 import { formatDate } from "./utils";
 
 export type JobEntryProps = {
@@ -23,11 +23,11 @@ export function JobEntry({
       <TypographyH4>
         {job}, {company}, {legibleStartDate} - {legibleEndDate}
       </TypographyH4>
-      <ul className="ml-6 list-disc [&>li]:mt-2">
+      <div className="mb-4 ml-4 mt-0">
         {duties.map((d, i) => (
-          <li key={`${job}-d-${i}`}>{d}</li>
+          <TypographyP key={`${job}-d-${i}`}>{d}</TypographyP>
         ))}
-      </ul>
+      </div>
     </>
   );
 }

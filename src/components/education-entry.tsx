@@ -30,9 +30,12 @@ export function EducationEntry({
         {degreeType} {subject}, {institution}, {legibleStartDate} -{" "}
         {legibleEndDate}
       </TypographyH4>
-      <TypographyP>
-        Grade: {grade}, modules include: {modules.join(", ")}. {comment}
-      </TypographyP>
+      <div className="mb-4 ml-4 mt-0">
+        <TypographyP>
+          Grade: {grade}, modules include: {modules.join(", ")}.<br />
+          {comment}
+        </TypographyP>
+      </div>
     </>
   );
 }
