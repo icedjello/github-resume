@@ -16,21 +16,15 @@ import {
 } from "./contents.json";
 import { JobEntry } from "./components/job-entry";
 import { EducationEntry } from "./components/education-entry";
+import { PersonalDetails } from "./components/personal-details";
 
 function App() {
   document.title = `${personalDetails.preferredName} ${personalDetails.lastName}`;
 
   return (
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
-      {/* <ModeToggle /> */}
-      <TypographyH1>
-        {personalDetails.firstName} {personalDetails.lastName}
-      </TypographyH1>
-      <TypographyH2>
-        {personalDetails.email} - {personalDetails.homeTown},{" "}
-        {personalDetails.country}
-      </TypographyH2>
-      <TypographyP>{personalDetails.aboutMe}</TypographyP>
+      {/* <ModeToggle /> <- make this look nice */}
+      <PersonalDetails {...personalDetails} />
       <TypographyH3>{skillsAndTech.title}</TypographyH3>
       <TypographyColumnList>
         {skillsAndTech.values.map((text, i) => (

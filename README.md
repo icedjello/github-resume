@@ -25,3 +25,7 @@ But then I realized I'm not Jony Ive and designers do more than just Figma and k
 ### Shadcn/ui
 
 If at any point you thought this CV looked good, that's because I used Shadcn/ui. It's a bunch of components you can copy and paste from the internet (it also has a nifty little CLI). It looks great, professional and modern. It's super simple to adjust, and for some reason it's completely free!
+
+## But How!?
+
+Will write this up when I can.
