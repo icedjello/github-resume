@@ -1,7 +1,7 @@
 import { TypographyH4 } from "./ui/typography";
 import { formatDate } from "./utils";
 
-type JobEntryProps = {
+export type JobEntryProps = {
   job: string;
   company: string;
   startDate: string;

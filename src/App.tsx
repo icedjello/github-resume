@@ -18,6 +18,7 @@ import { JobEntry } from "./components/job-entry";
 import { EducationEntry } from "./components/education-entry";
 import { PersonalDetails } from "./components/personal-details";
 import { SkillsAndTech } from "./components/skills-and-tech";
+import { Employment } from "./components/employment";
 
 function App() {
   document.title = `${personalDetails.preferredName} ${personalDetails.lastName}`;
@@ -27,10 +28,7 @@ function App() {
       {/* <ModeToggle /> <- make this look nice */}
       <PersonalDetails {...personalDetails} />
       <SkillsAndTech {...skillsAndTech} />
-      <TypographyH3>{employmentHistory.title}</TypographyH3>
-      {employmentHistory.jobs.map((job, i) => (
-        <JobEntry {...job} key={`job-${i}`} />
-      ))}
+      <Employment {...employmentHistory} />
       <TypographyH3>{education.title}</TypographyH3>
       {education.values.map((ed, i) => (
         <EducationEntry {...ed} key={`edu-${i}`} />
