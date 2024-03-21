@@ -1,5 +1,3 @@
-import { TypographyH1, TypographyH2, TypographyP } from "./ui/typography";
-
 type PersonalDetailsProps = {
   firstName: string;
   lastName: string;
@@ -19,13 +17,13 @@ export function PersonalDetails({
 }: PersonalDetailsProps) {
   return (
     <>
-      <TypographyH1>
+      <h1>
         {firstName} {lastName}
-      </TypographyH1>
-      <TypographyH2>
+      </h1>
+      <h2>
         {email} - {homeTown}, {country}
-      </TypographyH2>
-      <TypographyP>{aboutMe}</TypographyP>
+      </h2>
+      <p>{aboutMe}</p>
     </>
   );
 }

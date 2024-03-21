@@ -1,9 +1,3 @@
-import {
-  TypographyH3,
-  TypographyColumnList,
-  TypographyListItem,
-} from "./ui/typography";
-
 type skillsAndTechProps = {
   title: string;
   values: string[];
@@ -12,12 +6,12 @@ type skillsAndTechProps = {
 export function SkillsAndTech({ title, values }: skillsAndTechProps) {
   return (
     <>
-      <TypographyH3>{title}</TypographyH3>
-      <TypographyColumnList>
+      <h3>{title}</h3>
+      <ul>
         {values.map((text, i) => (
-          <TypographyListItem text={text} key={`skill-${i}`} />
+          <li key={`skill-${i}`}>{text}</li>
         ))}
-      </TypographyColumnList>
+      </ul>
     </>
   );
 }
