@@ -86,6 +86,19 @@
           "Neural Networks"
         ],
         "comment": "My dissertation subject was about Artificial Intelligence & AI."
+      },
+      {
+        "degreeType": "Ma",
+        "subject": "Investigative Journalism",
+        "institution": "City, University of London",
+        "startDate": "2016-08",
+        "endDate": "2017-07",
+        "modules": [
+          "Investigative Reporting",
+          "Editorial and TV Production",
+          "Data Journalism",
+          "Media Law"
+        ]
       }
     ]
   }
