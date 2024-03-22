@@ -24,9 +24,9 @@ export function EducationEntry({
   const legibleStartDate = formatDate(startDate);
   const legibleEndDate = formatDate(endDate);
 
-  const gradeAndModules =
-    (grade ? `Grade: ${grade}, ` : "") +
-    `${grade ? "m" : "M"}odules include: ${modules.join(", ")}.`;
+  const formattedModules = modules.join(", ");
+  const withGrade = `Grade: ${grade}, modules include: ${formattedModules}.`;
+  const sansGrade = `Modules include: ${formattedModules}.`;
 
   return (
     <>
@@ -37,7 +37,13 @@ export function EducationEntry({
 
       <div className="mb-4 ml-4 mt-0">
         <p>
-          {gradeAndModules} {comment && <br />} {comment}
+          {grade ? withGrade : sansGrade}
+          {comment && (
+            <>
+              <br />
+              {comment}
+            </>
+          )}
         </p>
       </div>
     </>
