@@ -81,7 +81,7 @@
     @apply mt-2 text-sm md:text-base;
   }
   ul {
-    @apply my-0 md:my-2 grid grid-cols-2 md:grid-cols-3 [&>li]:mt-2;
+    @apply my-0 mb-4 md:my-2 grid grid-cols-2 md:grid-cols-3 [&>li]:mt-2;
   }
   li {
     @apply m-1 md:m-2 text-sm md:text-base;

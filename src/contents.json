@@ -14,19 +14,22 @@
     "values": [
       "JavaScript",
       "TypeScript",
-      "Algorithms",
       "Storybook",
       "React",
       "Unit testing",
       "End-to-end testing",
-      "Data Structures",
+      "HTML/CSS",
       "Server Side Rendering",
+      "Single Page Applications",
       "Node",
       "Browser APIs",
       "Git & Github",
       "SQL (MySQL, Postgres)",
       "Vite",
-      "Tailwind"
+      "Remix",
+      "Next",
+      "Tailwind CSS",
+      "Agile/Kanban/Scrum"
     ]
   },
   "employmentHistory": {
