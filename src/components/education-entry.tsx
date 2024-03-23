@@ -34,8 +34,7 @@ export function EducationEntry({
         {degreeType} {subject}, {institution}, {legibleStartDate} -{" "}
         {legibleEndDate}
       </h4>
-
-      <div className="mb-4 ml-4 mt-0">
+      <div className="ml-2 mt-0 md:ml-4">
         <p>
           {grade ? withGrade : sansGrade}
           {comment && (

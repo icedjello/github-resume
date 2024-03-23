@@ -22,7 +22,7 @@ export function JobEntry({
       <h4>
         {job}, {company}, {legibleStartDate} - {legibleEndDate}
       </h4>
-      <div className="mb-4 ml-4 mt-0">
+      <div className="ml-2 mt-0 md:ml-4">
         {duties.map((d, i) => (
           <p key={`${job}-d-${i}`}>{d}</p>
         ))}
