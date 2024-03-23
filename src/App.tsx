@@ -19,6 +19,12 @@ function App() {
       <SkillsAndTech {...skillsAndTech} />
       <Employment {...employmentHistory} />
       <Education {...education} />
+      <hr />
+      <p className="text-center text-xs text-secondary">
+        © 2024 Bamdad Fard. Feel free to use this. you can find the repo{" "}
+        <a href="https://github.com/icedjello/github-resume">here</a>. Be cool,
+        okay?
+      </p>
     </ThemeProvider>
   );
 }
