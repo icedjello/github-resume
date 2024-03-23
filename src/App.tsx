@@ -12,9 +12,6 @@ import { Employment } from "./components/employment";
 import { Education } from "./components/education";
 
 function App() {
-  const { preferredName, lastName } = personalDetails;
-  document.title = `${preferredName} ${lastName}`;
-
   return (
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
       {/* <ModeToggle /> <- make this look nice */}
