@@ -41,12 +41,12 @@
         "startDate": "2022-08",
         "endDate": "2024-02",
         "duties": [
-          "Collaborated with product owners, designers, and testers to develop new features for Smart's web and mobile platforms.",
-          "Created proof-of-concept features for user testing and incorporated feedback-driven enhancements.",
-          "Aided in the transition of approved prototypes to production-ready code.",
-          "Debugged production issues and optimized code in Smart's legacy systems.",
-          "Improved test coverage and feature offerings for clients and users across multiple products.",
-          "Acquired knowledge of pension law in diverse jurisdictions and customized features for users in UK, EU, and Middle East."
+          "Worked in small, agile teams to create new features across multiple domains.",
+          "Built bespoke features into existing products for clients from the UK, UAE and Europe as part of the Investments team.",
+          "Participated in breakout session with product-owners and designers to create new or experimental features as part of the Innovation team.",
+          "Debugged issues in production-code and added tests to get Smart’s codebase to above 85% coverage for unit tests using Jest. ",
+          "Ensured all new and existing features had end-to-end test coverage using Playwright and user journeys were documented in Storybook.",
+          "Collaborated with backend developers to refine frontend interfaces, reduce load-times and improve server-side caching using Remix. "
         ]
       },
       {
