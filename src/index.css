@@ -77,19 +77,19 @@
     @apply border-b pb-2 text-xl md:text-2xl font-semibold;
   }
   h3 {
-    @apply border-b pb-2 text-lg md:text-xl font-semibold md:[&:not(:first-child)]:mt-4;
+    @apply border-b pb-2 text-lg md:text-xl font-semibold mt-2 md:mt-4;
   }
   h4 {
-    @apply text-base md:text-lg font-semibold tracking-tight mt-0.5 md:[&:not(:first-child)]:mt-2;
+    @apply text-base md:text-lg font-semibold tracking-tight mt-1 md:mt-2;
   }
   p {
-    @apply mt-2 text-sm md:text-base last-of-type:mb-2;
+    @apply mt-1 md:mt-2 text-sm md:text-base;
   }
   ul {
-    @apply my-0 mb-4 md:my-2 grid grid-cols-2 md:grid-cols-3 [&>li]:mt-2;
+    @apply grid grid-cols-2 md:grid-cols-3;
   }
   li {
-    @apply m-0 md:m-1 text-sm md:text-base font-semibold;
+    @apply m-0.5 md:m-1 text-sm md:text-base font-semibold;
   }
   a {
     @apply mx-0 underline;
